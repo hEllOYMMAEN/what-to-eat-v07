@@ -1,6 +1,8 @@
 import express from 'express';
 import 'dotenv/config';
 import {readFile} from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 const app=express();
 app.use(express.json({limit:'20kb'}));
 const meals=JSON.parse(await readFile(new URL('./data/menus.json',import.meta.url),'utf8'));
@@ -52,5 +54,34 @@ app.get('/api/geocode',async(req,res)=>{
   }catch(e){res.status(e.status||502).json({error:e.name==='AbortError'?'지역 검색 시간이 초과되었습니다.':e.message||'지역 검색 실패'});}
 });
 
-app.use((err,_req,res,_next)=>res.status(400).json({error:'요청 형식이 올바르지 않습니다.'}));
-const port=Number(process.env.PORT)||3001;app.listen(port,()=>console.log(`API server: http://localhost:${port}`));
+
+// React 빌드 파일 경로
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const distPath = path.resolve(__dirname, '../dist');
+
+// React 정적 파일 제공
+app.use(express.static(distPath));
+
+// API가 아닌 페이지 요청은 React 앱으로 연결
+app.get('*', (req, res, next) => {
+  if (req.path.startsWith('/api/')) {
+    return res.status(404).json({ error: '존재하지 않는 API입니다.' });
+  }
+
+  res.sendFile(path.join(distPath, 'index.html'), err => {
+    if (err) next(err);
+  });
+});
+
+// 오류 처리
+app.use((err, _req, res, _next) => {
+  console.error(err);
+  res.status(500).json({ error: '서버 오류가 발생했습니다.' });
+});
+
+// Render에서 제공하는 PORT 사용
+const port = Number(process.env.PORT) || 3001;
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server running on port ${port}`);
+});
