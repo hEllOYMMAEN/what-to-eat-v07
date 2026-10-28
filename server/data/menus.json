@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "name": "김치찌개",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 10000,
+    "spice": 2,
+    "portion": "든든하게",
+    "keywords": [
+      "김치찌개"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "된장찌개",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 9000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "된장찌개"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "순두부찌개",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 10000,
+    "spice": 1,
+    "portion": "든든하게",
+    "keywords": [
+      "순두부찌개"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "제육볶음",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 11000,
+    "spice": 2,
+    "portion": "든든하게",
+    "keywords": [
+      "제육볶음"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "불고기",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 13000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "불고기"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "비빔밥",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 10000,
+    "spice": 1,
+    "portion": "든든하게",
+    "keywords": [
+      "비빔밥"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "돼지국밥",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 11000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "돼지국밥"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "설렁탕",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 12000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "설렁탕"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "육개장",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 12000,
+    "spice": 2,
+    "portion": "든든하게",
+    "keywords": [
+      "육개장"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "냉면",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 11000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "냉면"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "갈비탕",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 15000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "갈비탕"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "삼계탕",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 17000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "삼계탕"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "부대찌개",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 11000,
+    "spice": 1,
+    "portion": "든든하게",
+    "keywords": [
+      "부대찌개"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "칼국수",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 10000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "칼국수"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "쌈밥",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 12000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "쌈밥"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "보쌈",
+    "category": "한식",
+    "emoji": "🍚",
+    "price": 18000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "보쌈"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "초밥",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 15000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "초밥"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "돈카츠",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 12000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "돈카츠"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "라멘",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 11000,
+    "spice": 1,
+    "portion": "든든하게",
+    "keywords": [
+      "라멘"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "우동",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 9500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "우동"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "규동",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 11000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "규동"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "가츠동",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 12000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "가츠동"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "소바",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 10500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "소바"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "오므라이스",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 11000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "오므라이스"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "카레라이스",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 10500,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "카레라이스"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "텐동",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 13000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "텐동"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "사케동",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 16000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "사케동"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "야키소바",
+    "category": "일식",
+    "emoji": "🍣",
+    "price": 11000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "야키소바"
+    ]
+  },
+  {
+    "id": 201,
+    "name": "짜장면",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 8000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "짜장면"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "짬뽕",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 10000,
+    "spice": 2,
+    "portion": "든든하게",
+    "keywords": [
+      "짬뽕"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "마라탕",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 14000,
+    "spice": 3,
+    "portion": "든든하게",
+    "keywords": [
+      "마라탕"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "마라샹궈",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 17000,
+    "spice": 3,
+    "portion": "든든하게",
+    "keywords": [
+      "마라샹궈"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "볶음밥",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 9500,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "볶음밥"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "마파두부덮밥",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 11000,
+    "spice": 2,
+    "portion": "든든하게",
+    "keywords": [
+      "마파두부덮밥"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "잡채밥",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 10500,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "잡채밥"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "탄탄면",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 11000,
+    "spice": 2,
+    "portion": "든든하게",
+    "keywords": [
+      "탄탄면"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "우육면",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 12000,
+    "spice": 1,
+    "portion": "든든하게",
+    "keywords": [
+      "우육면"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "딤섬",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 13000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "딤섬"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "꿔바로우",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 16000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "꿔바로우"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "유린기",
+    "category": "중식",
+    "emoji": "🥟",
+    "price": 17000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "유린기"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "토마토 파스타",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 15000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "토마토 파스타"
+    ]
+  },
+  {
+    "id": 302,
+    "name": "크림 파스타",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 16000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "크림 파스타"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "알리오 올리오",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 14000,
+    "spice": 1,
+    "portion": "가볍게",
+    "keywords": [
+      "알리오 올리오"
+    ]
+  },
+  {
+    "id": 304,
+    "name": "피자",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 18000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "피자"
+    ]
+  },
+  {
+    "id": 305,
+    "name": "리조또",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 16000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "리조또"
+    ]
+  },
+  {
+    "id": 306,
+    "name": "스테이크",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 25000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "스테이크"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "함박스테이크",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 15000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "함박스테이크"
+    ]
+  },
+  {
+    "id": 308,
+    "name": "라자냐",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 17000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "라자냐"
+    ]
+  },
+  {
+    "id": 309,
+    "name": "그라탕",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 15000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "그라탕"
+    ]
+  },
+  {
+    "id": 310,
+    "name": "필라프",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 14000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "필라프"
+    ]
+  },
+  {
+    "id": 311,
+    "name": "뇨키",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 17000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "뇨키"
+    ]
+  },
+  {
+    "id": 312,
+    "name": "수프와 빵",
+    "category": "양식",
+    "emoji": "🍝",
+    "price": 11000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "수프와 빵"
+    ]
+  },
+  {
+    "id": 401,
+    "name": "떡볶이",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 6500,
+    "spice": 2,
+    "portion": "가볍게",
+    "keywords": [
+      "떡볶이"
+    ]
+  },
+  {
+    "id": 402,
+    "name": "김밥",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 5000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "김밥"
+    ]
+  },
+  {
+    "id": 403,
+    "name": "라볶이",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 8000,
+    "spice": 2,
+    "portion": "든든하게",
+    "keywords": [
+      "라볶이"
+    ]
+  },
+  {
+    "id": 404,
+    "name": "순대",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 7000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "순대"
+    ]
+  },
+  {
+    "id": 405,
+    "name": "어묵우동",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 8500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "어묵우동"
+    ]
+  },
+  {
+    "id": 406,
+    "name": "쫄면",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 8500,
+    "spice": 2,
+    "portion": "가볍게",
+    "keywords": [
+      "쫄면"
+    ]
+  },
+  {
+    "id": 407,
+    "name": "잔치국수",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 8000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "잔치국수"
+    ]
+  },
+  {
+    "id": 408,
+    "name": "비빔국수",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 8500,
+    "spice": 2,
+    "portion": "가볍게",
+    "keywords": [
+      "비빔국수"
+    ]
+  },
+  {
+    "id": 409,
+    "name": "만두",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 7000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "만두"
+    ]
+  },
+  {
+    "id": 410,
+    "name": "치즈떡볶이",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 8500,
+    "spice": 2,
+    "portion": "든든하게",
+    "keywords": [
+      "치즈떡볶이"
+    ]
+  },
+  {
+    "id": 411,
+    "name": "참치김밥",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 6000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "참치김밥"
+    ]
+  },
+  {
+    "id": 412,
+    "name": "튀김덮밥",
+    "category": "분식",
+    "emoji": "🍢",
+    "price": 9500,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "튀김덮밥"
+    ]
+  },
+  {
+    "id": 501,
+    "name": "치즈버거",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 8500,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "치즈버거"
+    ]
+  },
+  {
+    "id": 502,
+    "name": "치킨버거",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 9000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "치킨버거"
+    ]
+  },
+  {
+    "id": 503,
+    "name": "핫도그",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 6500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "핫도그"
+    ]
+  },
+  {
+    "id": 504,
+    "name": "치킨",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 19000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "치킨"
+    ]
+  },
+  {
+    "id": 505,
+    "name": "치킨텐더",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 10000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "치킨텐더"
+    ]
+  },
+  {
+    "id": 506,
+    "name": "토스트",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 6500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "토스트"
+    ]
+  },
+  {
+    "id": 507,
+    "name": "베이글 샌드위치",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 8500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "베이글 샌드위치"
+    ]
+  },
+  {
+    "id": 508,
+    "name": "랩 샌드위치",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 9000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "랩 샌드위치"
+    ]
+  },
+  {
+    "id": 509,
+    "name": "타코",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 11000,
+    "spice": 1,
+    "portion": "가볍게",
+    "keywords": [
+      "타코"
+    ]
+  },
+  {
+    "id": 510,
+    "name": "부리토",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 12000,
+    "spice": 1,
+    "portion": "든든하게",
+    "keywords": [
+      "부리토"
+    ]
+  },
+  {
+    "id": 511,
+    "name": "감자튀김과 버거",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 12000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "감자튀김과 버거"
+    ]
+  },
+  {
+    "id": 512,
+    "name": "피시앤칩스",
+    "category": "패스트푸드",
+    "emoji": "🍔",
+    "price": 15000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "피시앤칩스"
+    ]
+  },
+  {
+    "id": 601,
+    "name": "쌀국수",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 11000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "쌀국수"
+    ]
+  },
+  {
+    "id": 602,
+    "name": "팟타이",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 12000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "팟타이"
+    ]
+  },
+  {
+    "id": 603,
+    "name": "분짜",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 13000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "분짜"
+    ]
+  },
+  {
+    "id": 604,
+    "name": "반미",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 8500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "반미"
+    ]
+  },
+  {
+    "id": 605,
+    "name": "나시고렝",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 12000,
+    "spice": 1,
+    "portion": "든든하게",
+    "keywords": [
+      "나시고렝"
+    ]
+  },
+  {
+    "id": 606,
+    "name": "미고렝",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 12000,
+    "spice": 1,
+    "portion": "든든하게",
+    "keywords": [
+      "미고렝"
+    ]
+  },
+  {
+    "id": 607,
+    "name": "똠얌꿍",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 14000,
+    "spice": 3,
+    "portion": "든든하게",
+    "keywords": [
+      "똠얌꿍"
+    ]
+  },
+  {
+    "id": 608,
+    "name": "그린커리",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 14000,
+    "spice": 2,
+    "portion": "든든하게",
+    "keywords": [
+      "그린커리"
+    ]
+  },
+  {
+    "id": 609,
+    "name": "인도커리",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 15000,
+    "spice": 1,
+    "portion": "든든하게",
+    "keywords": [
+      "인도커리"
+    ]
+  },
+  {
+    "id": 610,
+    "name": "탄두리치킨",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 17000,
+    "spice": 1,
+    "portion": "든든하게",
+    "keywords": [
+      "탄두리치킨"
+    ]
+  },
+  {
+    "id": 611,
+    "name": "카오팟",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 11000,
+    "spice": 0,
+    "portion": "든든하게",
+    "keywords": [
+      "카오팟"
+    ]
+  },
+  {
+    "id": 612,
+    "name": "월남쌈",
+    "category": "아시안",
+    "emoji": "🍜",
+    "price": 16000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "월남쌈"
+    ]
+  },
+  {
+    "id": 701,
+    "name": "닭가슴살 샐러드",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 11000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "닭가슴살 샐러드"
+    ]
+  },
+  {
+    "id": 702,
+    "name": "연어 포케",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 14000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "연어 포케"
+    ]
+  },
+  {
+    "id": 703,
+    "name": "두부 포케",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 12000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "두부 포케"
+    ]
+  },
+  {
+    "id": 704,
+    "name": "에그 샌드위치",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 8500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "에그 샌드위치"
+    ]
+  },
+  {
+    "id": 705,
+    "name": "그릭요거트 볼",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 9500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "그릭요거트 볼"
+    ]
+  },
+  {
+    "id": 706,
+    "name": "아보카도 토스트",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 11000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "아보카도 토스트"
+    ]
+  },
+  {
+    "id": 707,
+    "name": "수프",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 8500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "수프"
+    ]
+  },
+  {
+    "id": 708,
+    "name": "리코타 샐러드",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 13000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "리코타 샐러드"
+    ]
+  },
+  {
+    "id": 709,
+    "name": "참치 샌드위치",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 9000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "참치 샌드위치"
+    ]
+  },
+  {
+    "id": 710,
+    "name": "닭고기 랩",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 10500,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "닭고기 랩"
+    ]
+  },
+  {
+    "id": 711,
+    "name": "메밀 샐러드",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 11000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "메밀 샐러드"
+    ]
+  },
+  {
+    "id": 712,
+    "name": "과일 요거트",
+    "category": "가벼운 식사",
+    "emoji": "🥗",
+    "price": 8000,
+    "spice": 0,
+    "portion": "가볍게",
+    "keywords": [
+      "과일 요거트"
+    ]
+  }
+]

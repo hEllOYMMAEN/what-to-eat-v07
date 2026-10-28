@@ -1,0 +1,28 @@
+{
+  "name": "what-to-eat",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "server": "node server/index.js",
+    "dev:all": "concurrently -k \"npm:server\" \"npm:dev\""
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "lucide-react": "^0.468.0",
+    "express": "^4.21.2",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "~5.9.2",
+    "vite": "^6.3.5",
+    "concurrently": "^9.1.2"
+  }
+}
