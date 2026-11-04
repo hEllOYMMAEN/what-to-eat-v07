@@ -1,5 +1,6 @@
 import express from 'express';
 import 'dotenv/config';
+import {filterRelevantPlaces} from './place-relevance.js';
 import {readFile} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -74,7 +75,8 @@ app.get('/api/places',async(req,res)=>{
   const searchTerm=related?relatedKeyword(matched):keyword;
   try{
     const data=await kakao('/v2/local/search/keyword.json',{query:searchTerm,x:c.lng,y:c.lat,radius,sort:'distance',size:15});
-    res.json({query:searchTerm,related,center:c,places:(data.documents||[]).map(p=>({id:p.id,name:p.place_name,address:p.road_address_name||p.address_name,phone:p.phone||'',distance:p.distance?Number(p.distance):null,category:p.category_name,url:p.place_url,lat:Number(p.y),lng:Number(p.x)})),note:'키워드 검색 결과이며 해당 메뉴의 실제 판매 여부와 배달 가능 여부는 확인되지 않았습니다.'});
+    const filtered=filterRelevantPlaces(keyword,data.documents||[]);
+    res.json({query:searchTerm,related,center:c,places:filtered.map(p=>({id:p.id,name:p.place_name,address:p.road_address_name||p.address_name,phone:p.phone||'',distance:p.distance?Number(p.distance):null,category:p.category_name,url:p.place_url,lat:Number(p.y),lng:Number(p.x)})),note:'키워드 검색 결과이며 해당 메뉴의 실제 판매 여부와 배달 가능 여부는 확인되지 않았습니다.'});
   }catch(e){res.status(e.status||502).json({error:e.name==='AbortError'?'카카오 API 응답 시간이 초과되었습니다.':e.message||'장소 검색 실패'});}
 });
 app.get('/api/geocode',async(req,res)=>{
